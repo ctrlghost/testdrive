@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @font-face {
+            font-family:League;
+            src: url("assets/League.otf");
+        }
+        body{
+            background-color: #dc143c; /* Má prática utilizar o nome da cor*/
+            /* rgb (0..255, 0..255, 0..255) Red Green Blue */
+            background-color: #dc143c;
+            /*hexadecimal (#[0-9A-F])   #16opcoes{6}   #16opcoes{3}*/
+            background-color: #dc143c;
+        }
+
+        h1{
+            color: #fff;
+            text-transform: uppercase;
+            text-align: center;
+            font-family: "League";
+        }
+        /* Passar o mouse por cima */
+        h1:hover{
+            color: #febc05;
+        }
+        /* # é um seletor de ID
+        # serve para selecionar elemento que contém o id*/
+        img{
+            border-top-color: #800080;
+            border-top-width: 8px;
+            border-top-style: solid;
+
+            border-right-color: #008000;
+            border-right-width: 5px;
+            border-right-style: dashed;
+
+            border-bottom-color: #e63f5b;
+            border-bottom-width: 11px;
+            border-bottom-style: groove;
+
+            border-left-color: #ffff00;
+            border-left-width: 15px;
+            border-left-style: ridge;
+
+            opacity: 0.9;
+            transition: transform 1s;
+        }
+        p#first{
+            color: #adff2f;}
+        p#second{
+            color: #4169e1;}
+        p#third{
+            color: #ff8c00;}
+        p#forth{
+            color: #a9a9a9;}
+        p#fifth{
+            color: #00ced1}
+     img:hover{
+                opacity: 1;
+                transform: scaleX(0.8) scaleY(0.8);
+                transform: scale(0.8);
+
+                /*Valor     Percentual     Decimal
+                  1500   =>   100%      =>  1.0  
+                  750    =>   50%       =>  0.5  
+                  150    =>   10%       =>  0.10
+                  75     =>   5%        =>  0.05  
+                  1650   =>  110%       =>  1.1
+                  3000   =>  200%       =>  2.0*/  
+            }
+    </style>
+</head>
+<body>
+    <h1>Motivos de não jogar LOL</h1>
+    <p id="first">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit dolorem placeat perspiciatis laboriosam rerum, aliquid, blanditiis voluptate, tempore veritatis explicabo ducimus qui perferendis nisi esse facere totam sit accusantium at.</p>
+    <p id="second">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, ab. Autem repellat doloremque laborum expedita libero accusamus porro, fugiat blanditiis pariatur magni est recusandae maiores nostrum doloribus obcaecati praesentium molestiae?</p>
+    <p id="third">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe sapiente amet perspiciatis quod sequi consectetur tempore consequatur aperiam, hic debitis cumque et veritatis temporibus tenetur iure maiores, expedita magnam? Tempora!</p>
+    <p id="forth">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus culpa minus, distinctio officia eum odit voluptatem libero dignissimos illo. Minus obcaecati magni quidem veritatis porro saepe ex facilis nam iusto!</p>
+    <p id="fifth">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe velit dolores odit quibusdam eos, veritatis assumenda sed dignissimos mollitia dolor. Animi cumque voluptatem aspernatur pariatur asperiores reiciendis voluptatibus esse minima!</p>
+
+    <<img src="https://picsum.photos/id/237/600/400" alt="">
+</body> 
+</html>
